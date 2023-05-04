@@ -1,6 +1,6 @@
 ---
+import Header from '../components/Header.astro';
 ---
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -10,52 +10,7 @@
 		<title>Astro</title>
 	</head>
 	<body class="bg-slate-50">
-		<header aria-label="Site Header" class="fixed z-40 w-full bg-white border-b border-sky-600 mb-1 shadow-inner ">
-		  <div class="flex items-center justify-between mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-			<div class="w-60 max-w-full px-4 ">
-			  <a href="javascript:void(0)" class="block w-full py-3">
-				<img src="/img/logo.png" alt="logo" class="w-full"/>
-			  </a>
-			</div> 
-			<div class="py-1 md:flex md:items-center md:gap-12 ">
-			  <nav aria-label="navbar" class="hidden md:block pl-4 ">
-				<ul class="flex gap-6 text-sm ">
-				  <li>
-					<a class="px-1 font-medium text-lg text-sky-800 border-b-2 border-transparent hover:text-indigo-700 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 inline-block align-middle mt-2" href="/">Accueil</a>
-				  </li>
-				  <li>
-					<a class="px-1 font-medium text-lg text-sky-800 border-b-2 border-transparent hover:text-indigo-700 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 inline-block align-middle mt-2" href="/skills/">Skills</a>
-				  </li>
-				  <li>
-					<a class="px-1 font-medium text-lg text-sky-800 border-b-2 border-transparent hover:text-indigo-700 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 inline-block align-middle mt-2" href="/about/">A propos</a>
-				  </li>
-				  <li>
-					<a class="px-1 font-medium text-lg text-sky-800 border-b-2 border-transparent hover:text-indigo-700 transition-colors duration-300 transform dark:hover:text-gray-200 hover:border-blue-500 inline-block align-middle mt-2" href="/contact/">Contact</a>
-				  </li> 
-				</ul>
-			  </nav>   
-			  <div class="block md:hidden">
-				<button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 inline-block align-middle mt-1">
-				  <svg
-					xmlns="http://www.w3.org/2000/svg"
-					class="h-5 w-5"
-					fill="none"
-					viewBox="0 0 24 24"
-					stroke="currentColor"
-					stroke-width="2"
-				  >
-					<path
-					  stroke-linecap="round"
-					  stroke-linejoin="round"
-					  d="M4 6h16M4 12h16M4 18h16"
-					/>
-				  </svg>
-				</button>
-			  </div>
-			  
-			</div>
-		  </div>
-		</header> 
+		<Header />
 		<section class="pt-20 pb-1 bg-slate-50 md:px-0 ">
 		  <div class="w-full h-auto overflow-hidden">
 			<img src="/img/mountain1.png" alt="Route de montagne">
@@ -84,9 +39,9 @@
 						<img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
 					</a>
 				  <div class="p-4">
-					<p class="mb-1 text-sm text-primary-500">Andrea Felsted • <time>18 Nov 2022</time></p>
+					<p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
 					<a href="/posts/post-3/">
-						<h3 class="text-xl font-medium text-gray-900">Ce sera mon troisième post</h3>
+						<h3 class="text-xl font-medium text-gray-900">Mon troisième post</h3>
 					</a>
 					<p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
 					<div class="mt-4 flex gap-2">
@@ -103,9 +58,9 @@
 						<img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
 					</a>
 					<div class="p-4">
-					<p class="mb-1 text-sm text-primary-500">Andrea Felsted • <time>18 Nov 2022</time></p>
+					<p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
 					<a href="/posts/post-2/">
-						<h3 class="text-xl font-medium text-gray-900">Ce sera mon deuxième post</h3>
+						<h3 class="text-xl font-medium text-gray-900">Mon deuxième post</h3>
 					</a>
 					<p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
 					<div class="mt-4 flex gap-2">
@@ -122,9 +77,9 @@
 						<img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
 					</a>
 				  <div class="p-4">
-					<p class="mb-1 text-sm text-primary-500">Andrea Felsted • <time>18 Nov 2022</time></p>
+					<p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
 					<a href="/posts/post-1/">
-						<h3 class="text-xl font-medium text-gray-900">Ce sera mon premier post</h3>
+						<h3 class="text-xl font-medium text-gray-900">Mon premier post</h3>
 					</a>
 					<p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
 					<div class="mt-4 flex gap-2">

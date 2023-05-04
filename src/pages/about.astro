@@ -1,8 +1,18 @@
-<a href="/">Accueil</a>
-<a href="/skills/">Skills</a>
-<a href="/about/">A propos</a>
-<a href="/contact/">Contact</a>
-
-
-<h1>A propos de moi</h1>
-<h2>A styliser</h2>
+---
+import Header from '../components/Header.astro';
+const pageTitle = "A propos de moi";
+---
+<html lang="en">
+  <head>
+    <meta charset ="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+  </head>
+  <body class="bg-slate-50">
+    <Header />
+    <div class="py-20">
+        <h1>{pageTitle}</h1>
+        <h2>A styliser</h2>
+    </div>
+  </body>
+</html>

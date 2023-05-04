@@ -1,5 +1,5 @@
 ---
-title: My Second Blog Post
+title: Mon deuxième post
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image: 
