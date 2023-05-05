@@ -1,6 +1,8 @@
 ---
 import Header from '../components/Header.astro';
 import Footerpagepleine from '../components/Footerpagepleine.astro';
+import Imagedesktop from '../components/Imagedesktop.astro';
+import Imagemobile from '../components/Imagemobile.astro';
 ---
 <html lang="en">
 	<head>
@@ -14,7 +16,8 @@ import Footerpagepleine from '../components/Footerpagepleine.astro';
 		<Header />
 		<section class="pt-20 pb-1 bg-slate-50 md:px-0 ">
 		  <div class="w-full h-auto overflow-hidden">
-			<img src="/img/mountaindesktop.png" alt="Route de montagne">
+            <Imagedesktop />
+            <Imagemobile />
 		  </div>
 		</section>
 		<figure class="max-w-screen-md mx-auto text-center">
@@ -98,6 +101,6 @@ import Footerpagepleine from '../components/Footerpagepleine.astro';
 	<Footerpagepleine />
     <script>
 		import "../scripts/menu.js";
-	  </script>
+	</script>
   </body>
 </html>
