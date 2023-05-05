@@ -1,104 +1,89 @@
 ---
-import Header from '../components/Header.astro';
-import Footerpagepleine from '../components/Footerpagepleine.astro';
+import BaseLayoutPagePleine from '../layouts/BaseLayoutPagePleine.astro';
+const pageTitle = "Accueil";
 import Imagedesktop from '../components/Imagedesktop.astro';
 import Imagemobile from '../components/Imagemobile.astro';
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body class="bg-slate-50">
-		<Header />
-		<section class="pt-20 pb-1 bg-slate-50 md:px-0 ">
-		  <div class="w-full h-auto overflow-hidden">
-            <Imagedesktop />
-            <Imagemobile />
-		  </div>
-		</section>
-		<h1 class="text-xs sm:text-sm text-gray-400">
-			Itinéraire d'un débutant en reconversion dans le développement
-		</h1>
-		<section>
-		  <div class="bg-slate-50 py-6 sm:py-8 lg:py-12">
-			<div class="mx-auto max-w-screen-xl px-4 md:px-8">
-			  <!-- text - start -->
-			  <div class="mb-10 md:mb-16">
-				<h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Blog</h2>
-		  
-				<p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+<BaseLayoutPagePleine pageTitle={pageTitle}>
+	<div class="w-full h-auto overflow-hidden">
+		  <Imagedesktop />
+		  <Imagemobile />
+	</div>
+	
+	<h1 class="text-xs sm:text-sm text-gray-400">
+		Itinéraire d'un débutant en reconversion dans le développement
+	</h1>
+	<section>
+		<div class="bg-slate-50 py-6 sm:py-8 lg:py-12">
+		  <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+			<!-- text - start -->
+			<div class="mb-10 md:mb-16">
+			  <h2 class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl">Blog</h2>
+		
+			  <p class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.</p>
+			</div>
+			<!-- text - end -->
+		
+			<div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8 flex-row">
+			  <!-- article - start -->
+			  <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
+				  <a href="/posts/post-3/">
+					  <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
+				  </a>
+				<div class="p-4">
+				  <p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
+				  <a href="/posts/post-3/">
+					  <h3 class="text-xl font-medium text-gray-900">Mon troisième post</h3>
+				  </a>
+				  <p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
+				  <div class="mt-4 flex gap-2">
+					<span class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"> Design </span>
+					<span class="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600"> Product </span>
+					<span class="inline-flex items-center gap-1 rounded-full bg-orange-50 px-2 py-1 text-xs font-semibold text-orange-600"> Develop </span>
+				  </div>
+				</div>
 			  </div>
-			  <!-- text - end -->
-		  
-			  <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8 flex-col-reverse">
-				<!-- article - start -->
-				<div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
-					<a href="/posts/post-3/">
-						<img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
-					</a>
+			  <!-- article - end -->
+			  <!-- article - start -->
+			  <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
+				  <a href="/posts/post-2/">
+					  <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
+				  </a>
 				  <div class="p-4">
-					<p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
-					<a href="/posts/post-3/">
-						<h3 class="text-xl font-medium text-gray-900">Mon troisième post</h3>
-					</a>
-					<p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
-					<div class="mt-4 flex gap-2">
+				  <p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
+				  <a href="/posts/post-2/">
+					  <h3 class="text-xl font-medium text-gray-900">Mon deuxième post</h3>
+				  </a>
+				  <p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
+				  <div class="mt-4 flex gap-2">
 					  <span class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"> Design </span>
 					  <span class="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600"> Product </span>
 					  <span class="inline-flex items-center gap-1 rounded-full bg-orange-50 px-2 py-1 text-xs font-semibold text-orange-600"> Develop </span>
-					</div>
 				  </div>
-				</div>
-				<!-- article - end -->
-				<!-- article - start -->
-				<div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
-					<a href="/posts/post-1/">
-						<img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
-					</a>
-					<div class="p-4">
-					<p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
-					<a href="/posts/post-2/">
-						<h3 class="text-xl font-medium text-gray-900">Mon deuxième post</h3>
-					</a>
-					<p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
-					<div class="mt-4 flex gap-2">
-						<span class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"> Design </span>
-						<span class="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600"> Product </span>
-						<span class="inline-flex items-center gap-1 rounded-full bg-orange-50 px-2 py-1 text-xs font-semibold text-orange-600"> Develop </span>
-					</div>
-					</div>
-				</div>
-				<!-- article - end -->
-				<!-- article - start -->
-				<div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
-					<a href="/posts/post-1/">
-						<img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
-					</a>
-				  <div class="p-4">
-					<p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
-					<a href="/posts/post-1/">
-						<h3 class="text-xl font-medium text-gray-900">Mon premier post</h3>
-					</a>
-					<p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
-					<div class="mt-4 flex gap-2">
-					  <span class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"> Design </span>
-					  <span class="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600"> Product </span>
-					  <span class="inline-flex items-center gap-1 rounded-full bg-orange-50 px-2 py-1 text-xs font-semibold text-orange-600"> Develop </span>
-					</div>
 				  </div>
-				</div>
-				<!-- article - end -->
 			  </div>
+			  <!-- article - end -->
+			  <!-- article - start -->
+			  <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow">
+				  <a href="/posts/post-1/">
+					  <img src="https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" class="aspect-video w-full object-cover" alt="" />
+				  </a>
+				<div class="p-4">
+				  <p class="mb-1 text-sm text-primary-500">Publié le <time>18 Nov 2022</time></p>
+				  <a href="/posts/post-1/">
+					  <h3 class="text-xl font-medium text-gray-900">Mon premier post</h3>
+				  </a>
+				  <p class="mt-1 text-gray-500">Sailboat UI is a modern UI component library for Tailwind CSS. Get started with 150+ open source components.</p>
+				  <div class="mt-4 flex gap-2">
+					<span class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"> Design </span>
+					<span class="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600"> Product </span>
+					<span class="inline-flex items-center gap-1 rounded-full bg-orange-50 px-2 py-1 text-xs font-semibold text-orange-600"> Develop </span>
+				  </div>
+				</div>
+			  </div>
+			  <!-- article - end -->
 			</div>
 		  </div>
-		</section>	
-	<Footerpagepleine />
-    <script>
-		import "../scripts/menu.js";
-	</script>
-  </body>
-</html>
+		</div>
+	</section>	
+</BaseLayoutPagePleine>
