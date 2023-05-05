@@ -1,6 +1,6 @@
 ---
 import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Footerpagepleine from '../components/Footerpagepleine.astro';
 ---
 <html lang="en">
 	<head>
@@ -95,11 +95,9 @@ import Footer from '../components/Footer.astro';
 			</div>
 		  </div>
 		</section>	
-	<Footer />
-	<script>
-		document.querySelector('.hamburger').addEventListener('click', () => {
-  			document.querySelector('.mobile-menu').classList.toggle('hidden');
-		});
-	</script>
+	<Footerpagepleine />
+    <script>
+		import "../scripts/menu.js";
+	  </script>
   </body>
 </html>

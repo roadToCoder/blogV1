@@ -1,6 +1,6 @@
 ---
 import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
+import Footerpagevide from '../components/Footerpagevide.astro';
 const pageTitle = "A propos de moi";
 ---
 <html lang="en">
@@ -15,6 +15,9 @@ const pageTitle = "A propos de moi";
         <h1>{pageTitle}</h1>
         <h2>A styliser</h2>
     </div>
-    <Footer />
+    <Footerpagevide />
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>
