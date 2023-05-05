@@ -2,6 +2,7 @@
 import BaseLayoutPagePleine from '../layouts/BaseLayoutPagePleine.astro';
 import Blogpost from '../components/Blogpost.astro';
 const allPosts = await Astro.glob('../pages/posts/*.md');
+allPosts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatter.pubDate))
 const pageTitle = "Accueil";
 import Imagedesktop from '../components/Imagedesktop.astro';
 import Imagemobile from '../components/Imagemobile.astro';
@@ -27,9 +28,9 @@ import Imagemobile from '../components/Imagemobile.astro';
     <!-- text - end -->
   
       <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-      {allPosts.map((post) => <Blogpost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)} />)}
+      {allPosts.map((post) => <Blogpost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)} image={post.frontmatter.image.url} />)}
       </div>
     </div>
-</div>
+  </div>
 </section>	
 </BaseLayoutPagePleine>
