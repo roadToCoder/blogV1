@@ -18,11 +18,11 @@ posts.sort((a, b) => Date.parse(b.frontmatter.pubDate) - Date.parse(a.frontmatte
 const pageTitle = "Accueil";
 ---
 <BaseLayoutPagePleine pageTitle={tag}>
-    <p>Tag : {tag}</p>
+    <p># {tag}</p>
     <div class="bg-slate-50 py-6 sm:py-8 lg:py-8">
       <div class="mx-auto max-w-screen-xl px-4 md:px-8">  
         <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-          {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)}  image={post.frontmatter.image.url} description={post.frontmatter.description} tag={post.frontmatter.tags}/>)}
+          {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)}  image={post.frontmatter.image.url} description={post.frontmatter.description} />)}
         </div>
       </div>
     </div>

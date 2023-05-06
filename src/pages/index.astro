@@ -31,7 +31,7 @@ import Imagemobile from '../components/Imagemobile.astro';
         <p >Tags</p>
         <div>
           {tags.map((tag) => (
-              <p class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"><a href={`/tags/${tag}`}>{tag}</a></p>
+              <p class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"><a href={`/tags/${tag}`}># {tag}</a></p>
               ))}
         </div>
         <p>Derniers posts :</p>
@@ -39,7 +39,7 @@ import Imagemobile from '../components/Imagemobile.astro';
     <!-- text - end -->
   
       <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-      {allPosts.map((post) => <Blogpost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)}  image={post.frontmatter.image.url} description={post.frontmatter.description}/>)}
+      {allPosts.map((post) => <Blogpost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)}  image={post.frontmatter.image.url} description={post.frontmatter.description} tags={post.frontmatter.tags}/>)}
       </div>
     </div>
   </div>
