@@ -6,7 +6,7 @@ const { title, url, date, image, description } = Astro.props;
 
     <img src={image} class="aspect-video w-full object-cover" alt="" />
     <div class="p-4">
-        <p class="mb-1 text-sm text-primary-500">Publié le : {date}</p>
+        <p class="mb-1 text-sm text-primary-500">Publié le {date}</p>
         <a href={url} class="text-xl font-medium text-gray-900">{title}</a>
         <p class="mt-1 text-gray-500">{description}</p>
         <div class="mt-4 flex gap-2">
