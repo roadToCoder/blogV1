@@ -8,9 +8,10 @@ const { title, url, date, image, description, tags } = Astro.props;
         <p class="mb-1 text-sm text-primary-500">Publié le {date}</p>
         <a href={url} class="text-xl font-medium text-gray-900">{title}</a>
         <p class="mt-1 text-gray-500">{description}</p>
-        <div class="mt-4 flex gap-2">
+        <div class="inline-flex flex-wrap space-x-1 mt-4 gap-1 ">
         {tags?.map((tag) => (
-            <p class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"><a href={`./tags/${tag}`}># {tag}</a></p>
+            
+            <p class="inline-flex items-center gap-2 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600 sm:inline-block "><a href={`./tags/${tag}`}># {tag}</a></p>
             ))} 
         </div>
     </div>

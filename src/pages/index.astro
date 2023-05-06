@@ -29,11 +29,13 @@ import Imagemobile from '../components/Imagemobile.astro';
       </div>
       <div>       
         <p >Tags</p>
-        <div>
+        <div class="inline-flex flex-wrap space-x-2" style="border-spacing: 2px;">
           {tags.map((tag) => (
-              <p class="inline-flex items-center gap-1 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600"><a href={`/tags/${tag}`}># {tag}</a></p>
-              ))}
-        </div>
+              <p class="inline-flex items-center rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600 sm:text-sm">
+                  <a href={`/tags/${tag}`}># {tag}</a>
+              </p>
+          ))}
+      </div>
         <p>Derniers posts :</p>
       </div>
     <!-- text - end -->
