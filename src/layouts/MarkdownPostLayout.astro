@@ -1,8 +1,8 @@
 ---
-import BaseLayoutPageVide from './BaseLayoutPageVide.astro';
+import BaseLayoutPagePleine from './BaseLayoutPagePleine.astro';
 const { frontmatter } = Astro.props;
 ---
-<BaseLayoutPageVide pageTitle={frontmatter.title}>
+<BaseLayoutPagePleine pageTitle={frontmatter.title}>
 <p>Publié le : {frontmatter.pubDate.slice(0,10)}</p>
 <p><em>{frontmatter.description}</em></p>
 <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
@@ -12,4 +12,4 @@ const { frontmatter } = Astro.props;
     ))}
 </div>
 <slot />
-</BaseLayoutPageVide />
+</BaseLayoutPagePleine />
