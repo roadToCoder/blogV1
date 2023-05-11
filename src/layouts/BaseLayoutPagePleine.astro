@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footerpagepleine from '../components/Footerpagepleine.astro';
 import Topspace from '../components/Topspace.astro';
+import Bottomspace from '../components/Bottomspace.astro';
 const { pageTitle } = Astro.props;
 ---
 <html lang="en">
@@ -16,6 +17,7 @@ const { pageTitle } = Astro.props;
 		<Header />
 		<Topspace />
         <slot />
+		<Bottomspace />
 	    <Footerpagepleine />
     <script>
 		import "../scripts/menu.js";
