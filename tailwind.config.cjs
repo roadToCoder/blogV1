@@ -4,23 +4,22 @@ module.exports = {
 	theme: {
 		extend: {
 			keyframes: {
-			  flipVertical: {
-				'50%': { transform: 'rotateX(180deg)' },
-			  },
 			  itineraire: {
 				'0%': {
 					opacity: '0',
-				  	transform: 'translateY(-12px)',
+				  	transform: 'translateY(70px)',
+					
 				},
 				'100%': {
 					opacity: '1',
 				 	transform: 'translateY(0px)',
+					
 				},
 			  },
 			  reconversion: {
 				'0%': {
 					opacity: '0',
-				  	transform: 'translateY(-12px)',
+				  	transform: 'translateY(20px)',
 				},
 				'100%': {
 					opacity: '1',
@@ -30,7 +29,7 @@ module.exports = {
 			},
 			animation: {		  
 			  itineraire: 'itineraire 0.7s',
-			  reconversion: 'reconversion 0.9s',
+			  reconversion: 'reconversion 0.7s 0.1s',
 			},
 		  },
 	},
