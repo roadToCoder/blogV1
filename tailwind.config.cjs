@@ -31,7 +31,43 @@ module.exports = {
 			  itineraire: 'itineraire 0.7s',
 			  reconversion: 'reconversion 0.7s 0.1s',
 			},
-		  },
+		},
+		fontFamily: {
+		'body': [
+		'Montserrat', 
+		'ui-sans-serif', 
+		'system-ui', 
+		'-apple-system', 
+		'system-ui', 
+		'Segoe UI', 
+		'Roboto', 
+		'Helvetica Neue', 
+		'Arial', 
+		'Noto Sans', 
+		'sans-serif', 
+		'Apple Color Emoji', 
+		'Segoe UI Emoji', 
+		'Segoe UI Symbol', 
+		'Noto Color Emoji'
+	],
+		'sans': [
+		'Montserrat', 
+		'ui-sans-serif', 
+		'system-ui', 
+		'-apple-system', 
+		'system-ui', 
+		'Segoe UI', 
+		'Roboto', 
+		'Helvetica Neue', 
+		'Arial', 
+		'Noto Sans', 
+		'sans-serif', 
+		'Apple Color Emoji', 
+		'Segoe UI Emoji', 
+		'Segoe UI Symbol', 
+		'Noto Color Emoji'
+	]
+		}
 	},
 	plugins: [
 		require('@tailwindcss/typography'),
