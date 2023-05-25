@@ -9,7 +9,7 @@ image:
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public", "test"]
 ---
-<article class="prose lg:prose-xl">
+<article class="prose ">
   Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
 
