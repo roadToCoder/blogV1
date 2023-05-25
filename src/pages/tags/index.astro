@@ -5,7 +5,7 @@ const nonDraftPosts = allPosts.filter((post) => !post.frontmatter.draft);
 const tags = [...new Set(nonDraftPosts.map((post) => post.frontmatter.tags).flat())];
 const pageTitle = "Tag Index";
 ---
-<BaseLayoutPageVide>
+<BaseLayoutPageVide pageTitle={pageTitle}>
     <div class="pl-2 lg:pl-4 xl:pl-20 pt-6 pb-5">       
         <p>Tags :</p>
         <div class="pt-2 inline-flex flex-wrap space-x-2" style="border-spacing: 2px;">
