@@ -3,12 +3,12 @@ const { title, url, date, image, description, tags } = Astro.props;
 ---
 <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow hover:shadow-xl transition ease-in-out hover:scale-[102%]">
 
-    <a href={url}>
-        <img src={image} class="aspect-video w-full object-cover" alt="" />
+    <a aria-label="blogPost" href={url}>
+        <img src={image} class="aspect-video w-full object-cover" alt="" class="w-auto h-auto"/>
     </a>
     <div class="p-4">
         <p class="mb-1 text-sm text-primary-500">Publié le {date}</p>
-        <a href={url} class="text-xl font-medium text-gray-900">{title}</a>
+        <a aria-label="blogPost" href={url} class="text-xl font-medium text-gray-900">{title}</a>
         <p class="mt-1 text-gray-500">{description}</p>
         <div class="inline-flex flex-wrap space-x-1 mt-4 gap-1 ">
         {tags?.map((tag) => (

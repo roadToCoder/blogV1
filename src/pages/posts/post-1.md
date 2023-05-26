@@ -1,26 +1,31 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Mon premier post'
+title: 'Un nouveau départ'
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+description: "Le début d'une nouvelle carrière"
 image:
-    url: 'https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80' 
+    url: '/img/post1/michael-yuan-unsplash.webp' 
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public", "test"]
+tags: ["reconversion", "nouveau départ"]
 ---
 
-  Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Ça y est, c’est bon, j’en ai assez de faire ce que je fais, je me reconvertis dans le développement informatique !
 
 
-## What I've accomplished
+Avant d’aller plus loin, brève présentation : je m'appelle Denis, pas loin de la cinquantaine et gérant de boutique. Je vais bientôt la vendre pour me consacrer entièrement à l’apprentissage du code.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+## Débuter une nouvelle carrière
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+Cela fait huit ans et demi que je l’ai ouverte et j’ai la forte impression d’en avoir fait le tour. Le métier a changé (plus de vente et moins de conseil), les clients sont toujours cools mais avec le temps, quand vous voyez un client pas forcément sympa vous mine le moral alors que vous avez eu 30 clients agréables dans la journée, alors vous vous dites que ce n’est pas normal.
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+Il m’a fallu du temps pour identifier mon mal être et m’apercevoir que je n’étais plus heureux dans ce que je faisais. 
 
-## What's next
+Alors oui, ma boutique tourne bien et j’ai une plutôt bonne réputation, mais avant de péter un câble et de faire un burn out, je me dis qu’il est temps de changer.
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+## Besoin d'apprendre et de se sentir utile
+
+Il y a aussi l’envie de sortir de sa zone de confort, de se challenger, de repartir à zéro dans un domaine qui m'intéresse et de faire quelque chose de plus créatif.
+
+Et puis, si je peux aider ne serait-ce qu'une personne avec ce que j'écris, je serais super content !
+
+On se retrouve très vite.

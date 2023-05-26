@@ -10,8 +10,8 @@ const tags = [...new Set(nonDraftPosts.map((post) => post.frontmatter.tags).flat
 ---
 <BaseLayoutPagePleine pageTitle={pageTitle}>
     <div class="relative w-full h-auto overflow-hidden">
-      <img src="/img/mountainmobile.webp" alt="Route de montagne" class="block md:hidden ">
-        <img src="/img/mountaindesktop.webp" alt="Route de montagne" class="hidden md:block">
+      <img src="/img/mountainmobile.webp" alt="Route de montagne" class="w-auto h-auto block md:hidden ">
+        <img src="/img/mountaindesktop.webp" alt="Route de montagne" class="w-auto h-auto hidden md:block">
         <div class=" absolute bottom-5 left-1/2 transform -translate-x-1/2 xl:-translate-y-1/4 text-white text-center">
           <div class="pt-2 animate-itineraire text-lg md:text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl font-medium">
             Itinéraire d'un débutant
