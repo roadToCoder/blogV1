@@ -10,10 +10,10 @@ const { frontmatter } = Astro.props;
           {frontmatter.category}
         </span>
         <h1
-          class="mt-6 text-4xl lg:text-5xl text-sky-900 font-bold lg:tracking-tight lg:leading-tight">
+          class="pl-1 lg:pl-0 mt-6 text-4xl lg:text-5xl text-sky-900 font-bold lg:tracking-tight lg:leading-tight">
           {frontmatter.title}
         </h1>
-        <div class="flex gap-2 mt-1 items-center flex-wrap md:flex-nowrap">
+        <div class="pl-2 lg:pl-0 flex gap-2 mt-1 items-center flex-wrap md:flex-nowrap">
 
           Publié le : {frontmatter.pubDate.slice(0,10)}
           <span class="text-gray-400 hidden md:block">•</span>
@@ -26,7 +26,7 @@ const { frontmatter } = Astro.props;
         <img src={frontmatter.image.url} width="800" alt={frontmatter.image.alt} class="mt-3"/>
     </div>
   
-    <div class="prose prose-lg mt-6 mx-auto max-w-[800px]">
+    <div class="pr-2 pl-2 lg:pr-0 lg:pl-0 prose prose-lg mt-6 mx-auto max-w-[800px]">
         <slot />
     </div>
     <div class="text-center mt-16">
