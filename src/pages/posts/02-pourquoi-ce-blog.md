@@ -9,8 +9,6 @@ pubDate: 2023-05-10
 tags: ["reconversion", "état d'esprit"]
 draft: false
 ---
-
-
 Pourquoi je crée ce blog, me direz-vous ? Principalement pour exprimer ce que j’ai sur le cœur, mais également pour me permettre de suivre ma progression tout au long de cette reconversion et voir les progrès effectués.
 
 Comme je le disais dans mon précédent post, si cela donne l'envie à certains d’entre vous de trouver leur voie, alors j’en serais ravis.

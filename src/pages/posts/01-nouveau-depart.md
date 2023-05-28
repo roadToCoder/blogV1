@@ -8,7 +8,6 @@ image:
     alt: 'The full Astro logo.'
 tags: ["reconversion", "nouveau départ"]
 ---
-
 Ça y est, c’est bon, j’en ai assez de faire ce que je fais, je me reconvertis dans le développement informatique !
 
 
@@ -28,4 +27,4 @@ Il y a aussi l’envie de sortir de sa zone de confort, de se challenger, de rep
 
 Et puis, si je peux aider ne serait-ce qu'une personne avec ce que j'écris, je serais super content !
 
-On se retrouve très vite.
+On se retrouve très vite. 
