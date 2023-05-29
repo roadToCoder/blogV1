@@ -1,0 +1,4 @@
+ErrorDocument 401 https://mon-site-exemple.fr/401.html
+ErrorDocument 402 https://mon-site-exemple.fr/402.html
+ErrorDocument 403 https://mon-site-exemple.fr/403.html
+ErrorDocument 404 https://road2coder.com/404.html

@@ -5,7 +5,7 @@ pubDate: 2023-05-01
 description: "Le début d'une nouvelle carrière"
 image:
     url: '/img/post1/michael-yuan-unsplash.webp' 
-    alt: 'The full Astro logo.'
+    alt: 'Nouveau départ'
 tags: ["reconversion", "nouveau départ"]
 ---
 Ça y est, c’est bon, j’en ai assez de faire ce que je fais, je me reconvertis dans le développement informatique !
