@@ -21,7 +21,7 @@ const { frontmatter } = Astro.props;
         ))}
       </div>
     </div>
-    <img src={frontmatter.image.url} width="1000" alt={frontmatter.image.alt} class="mt-3"/>
+    <img src={frontmatter.image.url} width="1000" height="700" alt={frontmatter.image.alt} class="mt-3"/>
   </div> 
   <div class="pr-2 pl-2 lg:pr-0 lg:pl-0 prose prose-md lg:prose-lg mt-6 mx-auto max-w-[1000px]">
       <slot />

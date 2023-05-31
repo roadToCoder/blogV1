@@ -33,13 +33,13 @@ Une fois que vous aurez trouvé la solution, Blockly Games vous montre d'ailleur
 
 Je vais donc tacher de faire le tour de Blockly Games tout en restant le plus simple possible.
 
-### Puzzle
+o Puzzle
 
 Puzzle vous apprends de manière très simple à créer vos premiers objets, qui possèdent chacun leurs propriétés :
 
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/puzzle.webp" alt="Puzzle">
+  <img src="/img/post3/puzzle.webp" alt="Puzzle" width="691" height="364">
 </div>
 
 ### Labyrinthe
@@ -49,7 +49,7 @@ Labyrinthe vous apprends à décomposer les actions à effectuer pour arriver au
 Mais également de répéter des actions avec la boucle <code>WHILE</code> (dans mon exemple : <code>TANT QUE</code> l'arrivée n'est pas atteinte, on avance !)
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/laby.webp" alt="Labyrinthe">
+  <img src="/img/post3/laby.webp" alt="Labyrinthe" width="564" height="319">
 </div>
 
 ### Tortue
@@ -59,13 +59,13 @@ Tortue va permettre également de répéter des actions avec la boucle <code>FOR
 Là où <code>WHILE</code> répètera l'action <code>TANT QUE</code> nous ne sommes pas arrivé au résultat :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/tortue-1.webp" alt="Résolution">
+  <img src="/img/post3/tortue-1.webp" alt="Résolution" width="1000" height="494">
 </div>
 
 Le programme est en plus assez bien fait pour vous montrer que vous pouvez optimiser votre code ! A savoir qu'on aurait pu arriver au même résultat en duplicant 4 fois notre action, mais là elle est optimisée avec la boucle <code>FOR</code> (donc moins de lignes de codes) :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/tortue-2.webp" alt="Optimisation">
+  <img src="/img/post3/tortue-2.webp" alt="Optimisation" width="995" height="560">
 </div>
 
 ### Oiseau
@@ -74,7 +74,7 @@ Oiseau va vous permettre d'effectuer des tests avec <code>IF...ELSE</code>
 (dans mon exemple : <code>SI</code> n'y a pas telle condition, <code>ALORS</code> on fait ça, <code>SINON</code> on fait ça) :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/oiseau-1.webp" alt="Optimisation">
+  <img src="/img/post3/oiseau-1.webp" alt="Tests" width="1000" height="532">
 </div>
 
 En Javscript, ça donnerait le résultat suivant :
@@ -89,7 +89,7 @@ En Javscript, ça donnerait le résultat suivant :
 
 Film va vous permettre de créer des formes simples et de les animer :
 <div class="flex justify-center items-center">
-  <img src="/img/post3/film-1.webp" alt="Animation">
+  <img src="/img/post3/film-1.webp" alt="Animation" width="1000" height="710">
 </div>
 
 Ce qui donnerait en Javscript :
@@ -107,13 +107,13 @@ Ce qui donnerait en Javscript :
 Musique va vous apprendre à créer des fonctions qui vont permettre d'exécuter d'un coup plusieurs éléments, mais ces fonctions pourront être réutilisées ensuite :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/musique-1.webp" alt="Fonctions">
+  <img src="/img/post3/musique-1.webp" alt="Fonctions" width="700" height="337">
 </div>
 
 Dans mon exemple, la fonction frereJacques regroupe les 4 notes de la mélodie, elle est exécutée 2 fois quand j'appuie sur "start" (qui est d'ailleurs elle même une fonction) :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/musique-2.webp" alt="Frère Jacques">
+  <img src="/img/post3/musique-2.webp" alt="Frère Jacques" width="900" height="575">
 </div>
 
 En Javscript, c'est tout de suite plus clair :
@@ -166,19 +166,19 @@ Vous voyez ? On est pas si éloigné que ça d'un langage à l'autre !
 Déjà, il y a une partie tutoriel qui intègre un éditeur de code et met en avant quelque chose qui sera indispensable dans notre vie de développeur : la documentation !
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/tutopond-1.webp" alt="Frère Jacques">
+  <img src="/img/post3/tutopond-1.webp" alt="Tutorial" width="561" height="660">
 </div>
 
 Une fois lue, ça devient tout de suite plus simple d'arriver à notre résultat :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/tutopond-2.webp" alt="Frère Jacques">
+  <img src="/img/post3/tutopond-2.webp" alt="Documentation" width="583" height="653">
 </div>
 
 Et enfin Pond qui est un mini jeu à coder et qui permet de réviser tout ce qui a été fait jusqu'ici :
 
 <div class="flex justify-center items-center">
-  <img src="/img/post3/pond.webp" alt="Frère Jacques">
+  <img src="/img/post3/pond.webp" alt="Pond" width="955" height="630">
 </div>
 
 
