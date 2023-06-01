@@ -48,7 +48,7 @@ const tags = [...new Set(nonDraftPosts.map((post) => post.frontmatter.tags).flat
       <!-- text - end -->
     
         <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-        {nonDraftPosts.map((post) => <Blogpost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)}  image={post.frontmatter.image.url} description={post.frontmatter.description} tags={post.frontmatter.tags}/>)}
+        {nonDraftPosts.map((post) => <Blogpost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)} image={post.frontmatter.image.url} description={post.frontmatter.description} tags={post.frontmatter.tags} readtime={post.frontmatter.readtime}/>)}
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ layout: ../../layouts/MarkdownPostLayout.astro
 title: Que faire avant même de choisir un langage ?
 author: Astro Learner
 description: "Découvrez les algorithmes !"
+readtime: '10'
 image: 
     url: "/img/post3/algo.webp"
     alt: "Algorithmes"
@@ -33,7 +34,7 @@ Une fois que vous aurez trouvé la solution, Blockly Games vous montre d'ailleur
 
 Je vais donc tacher de faire le tour de Blockly Games tout en restant le plus simple possible.
 
-o Puzzle
+### Puzzle
 
 Puzzle vous apprends de manière très simple à créer vos premiers objets, qui possèdent chacun leurs propriétés :
 

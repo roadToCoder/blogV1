@@ -1,5 +1,5 @@
 ---
-const { title, url, date, image, description, tags } = Astro.props;
+const { title, url, date, readtime, image, description, tags } = Astro.props;
 ---
 <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow hover:shadow-xl transition ease-in-out hover:scale-[102%]">
 
@@ -7,12 +7,15 @@ const { title, url, date, image, description, tags } = Astro.props;
         <img src={image} class="aspect-video w-full object-cover" alt="" class="w-auto h-auto"/>
     </a>
     <div class="p-4">
-        <p class="mb-1 text-sm text-primary-500">Publié le :  {date}</p>
         <a aria-label="blogPost" href={url} class="text-xl font-medium text-sky-900">{title}</a>
+        <p class="flex items-center">
+            <img src="/img/blogpage/calendar-remove-svgrepo-com.svg" width="15" height="15" alt="calendar"></img>
+            <span class="ml-1 text-xs">{date}</span><span class="pl-1 pr-1 text-gray-400 md:block">•</span>
+            <img src="/img/blogpage/clock-svgrepo-com.svg" width="15" height="15" alt="time"></img><span class="text-xs ml-1">{readtime} min</span>
+        </p>
         <p class="mt-1 text-gray-500">{description}</p>
         <div class="inline-flex flex-wrap space-x-1 mt-4 gap-1 ">
-        {tags?.map((tag) => (
-            
+        {tags?.map((tag) => (           
             <p class="inline-flex items-center gap-2 rounded-full bg-blue-50 px-2 py-1 text-xs font-semibold text-blue-600 sm:inline-block "><a href={`./tags/${tag}`}># {tag}</a></p>
             ))} 
         </div>

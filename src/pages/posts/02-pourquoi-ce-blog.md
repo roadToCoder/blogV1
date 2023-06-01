@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Pourquoi ce blog ?
 description: "L'envie de s'exprimer principalement !"
+readtime: '4'
 image: 
     url: "/img/post2/why.webp"
     alt: "Pourquoi ce blog ?"

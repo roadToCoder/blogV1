@@ -28,7 +28,7 @@ const pageTitle = "Accueil";
   <div class="bg-slate-50 py-6 sm:py-8 lg:py-8">
     <div class="mx-auto max-w-screen-xl px-4 md:px-8">  
       <div class="grid gap-4 sm:grid-cols-2 md:gap-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-8">
-        {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)}  image={post.frontmatter.image.url} description={post.frontmatter.description}/>)}
+        {posts.map((post) => <BlogPost url={post.url} title={post.frontmatter.title} date={post.frontmatter.pubDate.slice(0,10)} image={post.frontmatter.image.url} description={post.frontmatter.description} readtime={post.frontmatter.readtime}/>)}
       </div>
     </div>
   </div>
