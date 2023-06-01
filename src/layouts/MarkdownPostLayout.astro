@@ -4,7 +4,7 @@ import HomeButton from '../components/HomeButton.astro';
 const { frontmatter } = Astro.props;
 ---
 <BaseLayoutPagePleine pageTitle={frontmatter.title}>
-  <div class="lg:mt-6 mx-auto max-w-[900px]">   
+  <div class="lg:mt-6 mx-auto max-w-[850px]">   
     <span class="text-blue-400 uppercase tracking-wider text-sm font-medium">
       {frontmatter.category}
     </span>
@@ -21,9 +21,9 @@ const { frontmatter } = Astro.props;
         ))}
       </div>
     </div>
-    <img src={frontmatter.image.url} width="900" height="600" alt={frontmatter.image.alt} class="mt-3"/>
+    <img src={frontmatter.image.url} width="850" height="650" alt={frontmatter.image.alt} class="mt-3"/>
   </div> 
-  <div class="pr-2 pl-2 lg:pr-0 lg:pl-0 prose prose-md lg:prose-lg mt-6 mx-auto max-w-[900px]">
+  <div class="pr-2 pl-2 lg:pr-0 lg:pl-0 prose prose-md lg:prose-lg mt-6 mx-auto max-w-[850px]">
       <slot />
   </div>
   <div class="text-center mt-16">
