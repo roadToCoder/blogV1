@@ -1,8 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Que faire avant même de choisir un langage ?
+title: Découvrez les algorithmes
 author: Astro Learner
-description: "Découvrez les algorithmes !"
+description: "Avant de choisir un langage"
 readtime: '10'
 image: 
     url: "/img/post3/algo.webp"
