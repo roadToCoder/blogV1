@@ -7,7 +7,7 @@ readtime: '2'
 image:
     url: '/img/post1/michael-yuan-unsplash.webp' 
     alt: 'Nouveau départ'
-tags: ["reconversion", "nouveau départ"]
+tags: ["reconversion"]
 ---
 Ça y est, c’est bon, j’en ai assez de faire ce que je fais, je me reconvertis dans le développement informatique !
 

@@ -7,7 +7,7 @@ image:
     url: "/img/post2/why.webp"
     alt: "Pourquoi ce blog ?"
 pubDate: 2023-05-10
-tags: ["reconversion", "état d'esprit"]
+tags: ["reconversion"]
 draft: false
 ---
 Pourquoi je crée ce blog, me direz-vous ? Principalement pour exprimer ce que j’ai sur le cœur, mais également pour me permettre de suivre ma progression tout au long de cette reconversion et voir les progrès effectués.
