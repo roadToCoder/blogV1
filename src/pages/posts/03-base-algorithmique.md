@@ -1,14 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Découvrez les algorithmes
-author: Astro Learner
 description: "Avant de choisir un langage"
 readtime: '10'
 image: 
     url: "/img/post3/algo.webp"
     alt: "Algorithmes"
 pubDate: 2023-05-27
-tags: ["formation", "découverte"]
+tags: ["découverte"]
 draft: false
 ---
 Vous aussi vous voulez vous lancer dans le développement informatique, mais vous ne savez pas par quoi commencer ?
