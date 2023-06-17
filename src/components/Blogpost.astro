@@ -1,10 +1,10 @@
 ---
-const { title, url, date, readtime, image, description, tags } = Astro.props;
+const { title, url, date, readtime, image, description, tags, alt } = Astro.props;
 ---
 <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow hover:shadow-xl transition ease-in-out hover:scale-[102%]">
 
     <a aria-label="blogPost" href={url}>
-        <img src={image} class="aspect-video w-full object-cover" alt="" class="w-auto h-auto"/>
+        <img src={image} width="448" height="252" alt={alt} />
     </a>
     <div class="p-4">
         <a aria-label="blogPost" href={url} class="text-xl font-medium text-sky-900">{title}</a>

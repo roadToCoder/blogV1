@@ -10,11 +10,11 @@ pubDate: 2023-06-17
 tags: ["reconversion","parcours"]
 draft: false
 ---
-J'ai toujours voulu faire du développement mais rares ont été mes occasions de me plonger dedans.
+J'ai toujours voulu faire du développement, mais rares ont été mes occasions de me plonger dedans.
 
 Quand j’étais gamin, mes parents m'ont offert pour mes 8 ans un Thomson MO5.
 
-J’étais fasciné par ce qu’on pouvait faire avec, des graphismes, des programmes… Cela parait logique maintenant, mais à une époque où il n’y avait que des livres, c’était une véritable révolution (bon ok, c’était quand même assez limité techniquement, on va pas se le cacher).
+J’étais fasciné par ce qu’on pouvait faire avec, des graphismes, des programmes… A une époque où il n’y avait que des livres, c’était une véritable révolution (bon ok, c’était quand même assez limité techniquement, on va pas se le cacher).
 
 Mes premiers pas dans le code ont été… de recopier des pages entières de programmes de magasines afin de les exécuter sur le MO5 :
 
