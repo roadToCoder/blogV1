@@ -4,7 +4,7 @@ const { title, url, date, readtime, image, description, tags, alt } = Astro.prop
 <div class="mx-auto max-w-md overflow-hidden rounded-lg bg-white shadow hover:shadow-xl transition ease-in-out hover:scale-[102%]">
 
     <a aria-label="blogPost" href={url}>
-        <img src={image} width="448" height="252" alt={alt} />
+        <img src={image} class="aspect-video object-cover hover:shadow-xl transition ease-in-out hover:scale-[107%]" alt={alt} width="448" height="252"/>
     </a>
     <div class="p-4">
         <a aria-label="blogPost" href={url} class="text-xl font-medium text-sky-900">{title}</a>
